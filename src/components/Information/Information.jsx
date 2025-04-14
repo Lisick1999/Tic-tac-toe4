@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import InformationLayout from './InformationLayout'; // Импорт по умолчанию
+import InformationLayout from './InformationLayout';
 
 class Information extends React.Component {
 	render() {
@@ -24,4 +24,4 @@ const mapStateToProps = (state) => {
 	};
 };
 
-export default connect(mapStateToProps)(Information); // Экспорт по умолчанию
+export default connect(mapStateToProps)(Information);
